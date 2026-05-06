@@ -1,0 +1,34 @@
+{
+  "cpu": {
+    "arch": "AMD64",
+    "cores_logical": 20,
+    "model": "unknown",
+    "cores_physical": 20
+  },
+  "ram_gb": 0.0,
+  "gpu": {
+    "backends": {
+      "nvidia_cuda": false,
+      "amd_rocm": false,
+      "apple_metal": false,
+      "vulkan": false,
+      "cpu_only": true
+    },
+    "details": {}
+  },
+  "docker": {
+    "docker": false,
+    "compose": true
+  },
+  "recommendation": {
+    "recommended_paths": [
+      "01-llama-cpp-quickstart",
+      "02-llama-cpp-server",
+      "03-milestone-integration",
+      "BONUS-llama-cpp-optimization"
+    ],
+    "recommended_model": "TinyLlama-1.1B (Q4_K_M)",
+    "llama_cpp_backend": "CPU (AVX/NEON tuning)",
+    "llama_cpp_cmake_flag": ""
+  }
+}

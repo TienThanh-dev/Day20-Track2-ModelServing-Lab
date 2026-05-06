@@ -17,3 +17,4 @@ locust_*.csv
 
 # NOTE: hardware.json AND benchmarks/*.md / *.json files are TRACKED on purpose.
 # They are the evidence the rubric grades against. See rubric.md.
+/llama-b9033-bin-win-cpu-x64
